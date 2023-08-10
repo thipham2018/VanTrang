@@ -11,13 +11,12 @@ const Navbar2 = () => {
         <header>
           <nav className="flex justify-between px-10 bg-green-300 py-3 font-bold">
             <div className="">
-              <NavLink to="/home">Food & Travel</NavLink>
+              <Link to="/">Food & Travel</Link>
             </div>
             <div className="gap-10 flex">
-              <NavLink to="/home">Home</NavLink>
+              <NavLink to="/">Home</NavLink>
               <NavLink to="/about">About</NavLink>
               <NavLink to="/travel">Travel</NavLink>
-
               <NavLink to="/contact">Contact</NavLink>
             </div>
           </nav>
