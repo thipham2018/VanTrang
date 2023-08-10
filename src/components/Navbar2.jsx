@@ -15,6 +15,7 @@ const Navbar2 = () => {
             </div>
             <div className="gap-10 flex">
               <NavLink to="/">Home</NavLink>
+
               <NavLink to="/about">About</NavLink>
               <NavLink to="/travel">Travel</NavLink>
               <NavLink to="/contact">Contact</NavLink>
